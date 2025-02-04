@@ -1,0 +1,23 @@
+.box {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.box img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.box > .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.box p {
+  line-height: 0.5;
+  margin: 8px 0;
+  color: #333;
+}
